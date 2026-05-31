@@ -39,9 +39,36 @@ nav {
     padding: 10px 20px;
     font-size: 19px;
     font-weight: 540;
+    background-color: rgba(0, 0, 0, 0.203);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    width: 250px;
     
 }
+
 a{
     color: white;
     text-decoration: none;
+}
+.menu-title {
+    cursor: pointer;
+}
+
+.submenu {
+    display: none;
+
+}
+
+.submenu.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu a {
+    display: block;
+    padding: 8px 12px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.15);
+    font-size: 16px;
 }
